@@ -1,0 +1,106 @@
+body {
+  overflow-y: scroll;
+  background-color: black;
+}
+@font-face {
+font-family: Bloods;
+src: url(/static/font/bloos___.ttf);
+}
+
+@font-face {
+font-family: Insight;
+src: url(/static/font/Insight.ttf);
+}
+
+.text-muted {
+  color: #777;
+}
+h4.subheading {
+  font-size: 65px;
+  font-family: "Bloods", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  color: #ff1717;
+}
+h3.inline-title {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: orange;
+}
+label.btn.btn-default.active {
+  background-color: #d9edf7;
+  color: #60708f;
+}
+textarea.hidetext {
+  height: auto;
+  resize: none;
+  border-radius:5px;
+  border: #ffa500 solid thin;
+  background-color: black;
+  color: #ff1717;
+}
+label.register {
+  color: #222222;
+}
+button#revive {
+  font-family: "Insight", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+a {
+  color: #0088cc;
+}
+a:hover {
+  color: #005580;
+}
+.navbar-extra {
+   border-radius: 0;
+   margin-bottom: 30px;
+}
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+hr.dashstyle {
+  background-color: #000000;
+  border-top: 2px dashed #ff2222;
+}
+#goodluck {
+  font-family: "Bloods", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+@media(min-width: 768px) {
+  .container .navbar-collapse.collapse {
+      position:relative;
+  }
+  .navbar-brand.narrow-display {
+    display: none;
+  }
+  #navBar-right {
+      position:absolute;
+      display:inline-block;
+      right: 0;
+  }
+}
+@media(max-width: 767px) {
+  .navbar-brand.narrow-display {
+    display: block;
+  }
+}
+
+/*font awesome*/
+.action-icon:hover {
+  text-decoration: none;
+}
+.action-icon:hover .fa {
+  font-size: 28px;
+  vertical-align: -6px;
+}
+
+
